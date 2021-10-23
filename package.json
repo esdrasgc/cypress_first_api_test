@@ -1,0 +1,24 @@
+{
+  "name": "cypress_first_api_test",
+  "version": "1.0.0",
+  "description": "This is a repository to my first cypress test, following the steps at :\r https://dev.to/murillowelsi/api-testing-with-cypress-part-1-5coe",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run --spec ** / *. spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esdrasgc/cypress_first_api_test.git"
+  },
+  "keywords": ["cypress", "test", "api"],
+  "author": "Esdras Gomes Carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esdrasgc/cypress_first_api_test/issues"
+  },
+  "homepage": "https://github.com/esdrasgc/cypress_first_api_test#readme",
+  "devDependencies": {
+    "cypress": "^8.6.0"
+  }
+}
