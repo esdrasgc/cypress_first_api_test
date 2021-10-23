@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/esdrasgc/cypress_first_api_test.git"
   },
-  "keywords": ["cypress", "test", "api"],
+  "keywords": [
+    "cypress",
+    "test",
+    "api"
+  ],
   "author": "Esdras Gomes Carvalho",
   "license": "ISC",
   "bugs": {
@@ -19,6 +23,7 @@
   },
   "homepage": "https://github.com/esdrasgc/cypress_first_api_test#readme",
   "devDependencies": {
-    "cypress": "^8.6.0"
+    "cypress": "^8.6.0",
+    "faker": "^5.5.3"
   }
 }
